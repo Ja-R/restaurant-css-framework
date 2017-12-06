@@ -17,37 +17,9 @@ body, html{
 }
 /* entete */
 
-header{
-  background-color: $fdbeigepastel;
-  padding-top: 5px;
-  margin-bottom: 30px;
-  align-items: center;
-}
 
-.enseigne{
-  display: inline;
-  color: $grisbleu;
-}
-.navig{
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  justify-content: space-around;
 
-  a{
-    color: $grisbleu;
-  }
-
-  a:hover{
-    color: $link-hover;
-  }
-
-}
 
 .jumbotron{
-  // background-image: url(../images/illustration/i2.jpg);
-  // background-repeat: round;
   width: 60%;
-  background-color: $beigefonce;
-  // margin: auto;
 }

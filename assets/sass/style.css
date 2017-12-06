@@ -7,28 +7,7 @@ body, html {
   color: #843C06; }
 
 /* entete */
-header {
-  background-color: #FFF3CD;
-  padding-top: 5px;
-  margin-bottom: 30px;
-  align-items: center; }
-
-.enseigne {
-  display: inline;
-  color: #A6B1B5; }
-
-.navig {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  justify-content: space-around; }
-  .navig a {
-    color: #A6B1B5; }
-  .navig a:hover {
-    color: #BD4F6C; }
-
 .jumbotron {
-  width: 60%;
-  background-color: #FFDE87; }
+  width: 60%; }
 
 /*# sourceMappingURL=style.css.map */

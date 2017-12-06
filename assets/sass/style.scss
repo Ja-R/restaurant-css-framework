@@ -1,4 +1,53 @@
+$fdbeigepastel: #FFF3CD;
+$beige: #FFFA99;
+$beigefonce: #FFDE87;
+$grisbleu: #A6B1B5;
+$link-hover: #BD4F6C;
+$color: #E5E5E3;
+$brun: #843C06;
+
+*{
+  border: 1px solid black;
+}
+
+body, html{
+  margin: 0px;
+  padding: 0px;
+  color: $brun;
+}
+/* entete */
+
+header{
+  background-color: $fdbeigepastel;
+  padding-top: 5px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.enseigne{
+  display: inline;
+  color: $grisbleu;
+}
+.navig{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+
+  a{
+    color: $grisbleu;
+  }
+
+  a:hover{
+    color: $link-hover;
+  }
+
+}
+
 .jumbotron{
-  background-image: url(../images/illustration/i2.jpg);
-  background-repeat: round;
+  // background-image: url(../images/illustration/i2.jpg);
+  // background-repeat: round;
+  width: 60%;
+  background-color: $beigefonce;
+  // margin: auto;
 }

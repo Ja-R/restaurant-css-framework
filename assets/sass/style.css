@@ -1,5 +1,10 @@
 .jumbotron {
-  /*background-image: url(../images/illustration/i2.jpg);
-  background-repeat: round; }*/
+  opacity: 0.5; }
+
+body {
+  background-image: url(../images/illustration/i1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

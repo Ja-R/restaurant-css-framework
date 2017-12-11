@@ -3,18 +3,25 @@
 }
 
 body{
-  background-image: url(../images/illustration/i1.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-image: url(../images/illustration/i1.jpeg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.gallerie{
-  height: 500px;
+p{
+  text-align: justify;
+}
+
+#gallerie{
+  height: 270px;
   overflow: hidden;
 }
 
 .vignette{
   width: 100%;
+}
 
+.container{
+  margin-top: 20px;
 }

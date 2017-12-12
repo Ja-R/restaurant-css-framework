@@ -21,23 +21,23 @@
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Accueil</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="2carte.html">Carte</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="2carte.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Cartes
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Classique</a>
+              <a class="dropdown-item" href="#">Végétarien</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="3photos.html">Photos</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Restaurants <span class="sr-only">(current)</span>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Bruxelles</a>
-              <a class="dropdown-item" href="#">Liège</a>
-            </div>
-            <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" href="4restaurants.html">Restaurants <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
               <a class="nav-link" href="5contact.html">Contact</a>
-            </li>
           </li>
         </ul>
       </div>
@@ -46,30 +46,111 @@
     <!-- deux adresses -->
 
     <div class="container" id="restos">
-      <!-- resto1 -->
-      <div class="row">
+      <div class="row"> <!-- resto1 -->
         <div class="col-md-6">
           <div class="thumbnail">
-            <a href="assets/images/cartes/rueparadis.png">
-              <img src="assets/images/cartes/rueparadis.png" class="vignette" alt="R. Paradis">
-              <div class="caption">
-                <p>Rue du Paradis, n°20</p>
-              </div>
-            </a>
+            <img src="assets/images/cartes/rueparadis.png" class="vignette" alt="R. Paradis">
+          </div> <!-- fin thumbnail -->
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail"> <!-- adresse -->
+            <p>LE RESTO N°1 <br>Rue du Paradis, n°20 <br>1420 Braine-l'Alleud <br>Belgique</p>
+            <p>02 123 45 67</p>
+            <a class="btn btn-primary" href="https://www.google.be/maps/dir//Rue+du+Paradis,+1420+Braine-l'Alleud/@50.6778785,4.3679307,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c3cdfcd6edacbb:0x63ae26b309043e05!2m2!1d4.3701247!2d50.6778751" role="button" target="_blank">Itinéraire</a>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="thumbnail">
-            <a href="assets/images/cartes/ruedelasucrerie.png">
-              <img src="assets/images/cartes/ruedelasucrerie.png" class="vignette"  alt="R. Sucrerie">
-              <div class="caption">
-                <p>Rue de la Sucrerie, n°80</p>
-              </div>
-            </a>
-          </div>
+        <div class="col-md-3">
+          <div class="thumbnail"> <!-- horaire -->
+            <table class="table">
+              <caption>Horaire d'ouverture</caption>
+              <tbody>
+                <tr>
+                  <th scope="row">Lundi</th>
+                  <td>07:00 - 15:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mardi</th>
+                  <td>Fermé</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mercredi</th>
+                  <td>07:00 - 17:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Jeudi</th>
+                  <td>07:00 - 15:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Vendredi</th>
+                  <td>07:00 - 15:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Samedi</th>
+                  <td>07:00 - 17:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Dimanche</th>
+                  <td>07:00 - 17:00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div> <!-- fin thumbnail horaire -->
         </div>
       </div>
-    </div>
+
+      <div class="row"> <!-- resto2 -->
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <img src="assets/images/cartes/ruedelasucrerie.png" class="vignette" alt="R. Sucrerie">
+          </div> <!-- fin thumbnail -->
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail"> <!-- adresse -->
+            <p>LE RESTO N°2 <br>Rue de la Sucrerie, n°80 <br>7800 Ath<br>Belgique</p>
+            <p>02 987 65 41</p>
+            <a class="btn btn-primary" href="https://www.google.be/maps/place/Rue+de+la+Sucrerie+80,+7800+Ath/@50.6244349,3.7748803,17z/data=!3m1!4b1!4m5!3m4!1s0x47c30006b7f0d889:0x158da648612c6856!8m2!3d50.6244315!4d3.7770743" role="button" target="_blank">Itinéraire</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail"> <!-- horaire -->
+            <table class="table">
+              <caption>Horaire d'ouverture</caption>
+              <tbody>
+                <tr>
+                  <th scope="row">Lundi</th>
+                  <td>Fermé</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mardi</th>
+                  <td>Fermé</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mercredi</th>
+                  <td>07:00 - 17:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Jeudi</th>
+                  <td>07:00 - 15:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Vendredi</th>
+                  <td>07:00 - 15:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Samedi</th>
+                  <td>07:00 - 17:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Dimanche</th>
+                  <td>07:00 - 17:00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div> <!-- fin thumbnail horaire -->
+        </div> <!-- fin resto 1 -->
+      </div>
+
+    </div> <!-- fin container resto -->
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

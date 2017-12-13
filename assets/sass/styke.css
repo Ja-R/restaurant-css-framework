@@ -1,0 +1,44 @@
+.jumbotron {
+  opacity: 0.5; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+p {
+  text-align: justify; }
+
+#gallerie {
+  height: 270px;
+  overflow: hidden; }
+
+.vignette {
+  object-fit: cover; }
+
+.container {
+  margin-top: 20px; }
+
+.pageindex {
+  background-image: url(../images/illustration/i1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#pagecarte {
+  background-image: url(../images/resto/resto4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#pagerestos {
+  background-image: url(../images/resto/resto1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
+
+#pagecontact {
+  background-image: url(../images/illustration/i2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#gallerie {
+  background-color: black; }
+
+/*# sourceMappingURL=styke.css.map */

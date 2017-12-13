@@ -3,9 +3,6 @@
 }
 
 body{
-  // background-image: url(../images/illustration/i1.jpeg);
-  // background-repeat: no-repeat;
-  // background-size: cover;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -13,22 +10,11 @@ p{
   text-align: justify;
 }
 
-#gallerie{
-  height: 270px;
-  overflow: hidden;
-}
-
-// caption{
-//   caption-side: top;
-// }
-
-.vignette{
-  width: 100%;
-}
-
 .container{
   margin-top: 20px;
 }
+
+/*page index*/
 
 .pageindex{
   background-image: url(../images/illustration/i1.jpeg);
@@ -36,11 +22,52 @@ p{
   background-size: cover;
 }
 
+/*page 2cartes*/
+
 #pagecarte{
   background-image: url(../images/resto/resto4.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.boite-menu{
+  background-color: rgba(8, 0, 0, 0.5)!important;
+}
+
+h3{
+  color:white!important;
+}
+
+.liste-menu{
+  .list-group-item{
+    background-color: rgba(248, 249, 250, 0.5)!important;
+  }
+}
+
+/*page 3photo*/
+
+#pagephoto{
+  background-image: url(../images/gallerie/table.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gallerie{
+  height: 270px;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+#gallerie1, #gallerie2, #gallerie3, #gallerie4{
+  margin: 25px;
+  padding: 10px;
+}
+
+.img-thumbnail{
+  height: 100%!important;
+}
+
+/*page 4resto*/
 
 #pagerestos{
   background-image: url(../images/resto/resto1.jpeg);
@@ -48,6 +75,17 @@ p{
   background-size: cover;
   color: white;
 }
+
+.vignette-carte {
+width: 100%;
+}
+
+.cadre-resto{
+  background-color: rgba(8, 0, 0, 0.5);
+  margin-top: 50px;
+}
+
+/*page 5contact*/
 
 #pagecontact{
   background-image: url(../images/illustration/i2.jpg);

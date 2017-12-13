@@ -18,6 +18,10 @@ p{
   overflow: hidden;
 }
 
+// caption{
+//   caption-side: top;
+// }
+
 .vignette{
   width: 100%;
 }
@@ -33,7 +37,20 @@ p{
 }
 
 #pagecarte{
-  background-image: url(../images/illustration/i8.jpeg);
+  background-image: url(../images/resto/resto4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pagerestos{
+  background-image: url(../images/resto/resto1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#pagecontact{
+  background-image: url(../images/illustration/i2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }

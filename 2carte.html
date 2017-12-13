@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/sass/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <title>carte</title>
+    <title>Carte</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
 
@@ -18,23 +18,23 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Accueil</a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="2carte.html">Notre carte <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="3photos.html">Photo</a>
+          </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="2carte.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Cartes <span class="sr-only">(current)</span>
+            <a class="nav-link dropdown-toggle" href="4restaurants.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Nos restaurants
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Classique</a>
-              <a class="dropdown-item" href="#">Végétarien</a>
+              <a class="dropdown-item" href="4restaurants.html#resto1">Braine-l'Alleud</a>
+              <a class="dropdown-item" href="4restaurants.html#resto2">Ath</a>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="3photos.html">Photos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="4restaurants.html">Restaurants</a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="5contact.html">Contact</a>
@@ -46,9 +46,115 @@
 <!-- menu -->
     <div class="container" id="menu">
       <div class="row">
-        <div class="col-md-4 offset-md-2">
+        <div class="col-12 col-md-6">
+          <div class="p-3 mb-2 bg-light text-dark" id="menu-classique">
+            <h3>Classique</h3>
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Classique 1
+                <span> </span>
+                14€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Classique 2
+                <span class="badge badge-success badge-pill">Végétarien</span>
+                20€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Classique 3
+                <span> </span>
+                16€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Classique 4
+                <span class="badge badge-warning badge-pill">Spécial</span>
+                22€
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+        <div class="col-12 col-md-6">
+          <div class="p-3 mb-2 bg-light text-dark" id="menu-sante">
+            <h3>Santé</h3>
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Santé 1
+                <span> </span>
+                20€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Santé 2
+                <span class="badge badge-success badge-pill">Végétarien</span>
+                20€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Santé 3
+                <span class="badge badge-success badge-pill">Végétarien</span>
+                22€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Santé 4
+                <span class="badge badge-warning badge-pill">Spécial</span>
+                26€
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="p-3 mb-2 bg-light text-dark" id="menu-sucre">
+            <h3>Sucré</h3>
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center bg-light">
+                Sucré 1
+                <span class="badge badge-warning badge-pill">Spécial</span>
+                14€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Sucré 2
+                <span> </span>
+                16€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Sucré 3
+                <span class="badge badge-success badge-pill">Végétarien</span>
+                22€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Sucré 4
+                <span > </span>
+                26€
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="p-3 mb-2 bg-light text-dark" id="menu-sale">
+            <h3>Salé</h3>
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Salé 1
+                <span> </span>
+                14€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Salé 2
+                <span class="badge badge-warning badge-pill">Spécial</span>
+                16€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Salé 3
+                <span class="badge badge-success badge-pill">Végétarien</span>
+                20€
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Salé 4
+                <span > </span>
+                20€
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> <!-- fin row -->
     </div>
 
 

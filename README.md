@@ -1,6 +1,6 @@
 # restaurant-css-framework
 
-### [Consignes](https://github.com/becodeorg/Swartz-promo-3/blob/master/Parcours/03-Bootstrap/projet.md) # : 
+### [Consignes](https://github.com/becodeorg/Swartz-promo-3/blob/master/Parcours/03-Bootstrap/projet.md) : 
 Réalisation d'un site multipages en Bootstrap.
 
 
